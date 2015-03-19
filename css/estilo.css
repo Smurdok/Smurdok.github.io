@@ -1,0 +1,28 @@
+html, body {
+	text-transform: uppercase;
+}
+
+#loginForm {
+	padding: 30px;
+}
+
+.textDelgado {
+	font-weight: 200;
+}
+
+.input-field input:focus, .input-field textarea:focus {
+     border-bottom: 1px solid #f44336;
+     box-shadow: 0 1px 0 0 #b71c1c;
+}
+
+#tablaDocMuni {
+	font-size: 0.9rem;
+}
+
+#chartdiv {
+	height: 500px;
+}
+
+.idDoc_btn {
+	display: none;
+}
