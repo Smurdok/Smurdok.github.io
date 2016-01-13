@@ -3464,6 +3464,10 @@ nav ul a span.badge {
   content: "\e8f7";
 }
 
+[class^="mdi-facebook"]:after {
+  content: "\efb1";
+}
+
 .mdi-device-signal-cellular-off:after, .mdi-device-signal-cellular-null:after, .mdi-device-signal-cellular-no-sim:after, .mdi-device-signal-wifi-off:after, .mdi-device-signal-wifi-4-bar:after, .mdi-device-signal-cellular-4-bar:after, .mdi-device-battery-alert:after, .mdi-device-signal-cellular-connected-no-internet-4-bar:after, .mdi-device-battery-std:after, .mdi-device-battery-full .mdi-device-battery-unknown:after {
   content: "";
 }
