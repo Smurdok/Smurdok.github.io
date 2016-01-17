@@ -17,16 +17,20 @@
 
     </head>
 
-    <body>
-
+    <body class="blue-grey lighten-5">
     	<div class="navbar-fixed">
 			<nav class="blue-grey lighten-5">
 		    	<div class="nav-wrapper">
 		    		<div class="container">
+		    			<a href="#" data-activates="mobile-demo" class="button-collapse indigo-text text-darken-4"><i class="material-icons">menu</i></a>
 			        	<ul class="right hide-on-med-and-down">
 			          		<li><a href="#"><i class="material-icons blue-grey-text">work</i></a></li>
 			          		<li><a href="#"><i class="material-icons blue-grey-text">contact_mail</i></a></li>
 			        	</ul>
+			        	<ul class="side-nav blue-grey lighten-5" id="mobile-demo">
+	        				<li><a href="#"><i class="material-icons blue-grey-text">work</i></a></li>
+			          		<li><a href="#"><i class="material-icons blue-grey-text">contact_mail</i></a></li>
+	      				</ul>	
 			        </div>
 		      	</div>
 		    </nav>
@@ -37,7 +41,7 @@
       			<div class="row">
       				<div class="col s8 offset-s2 m6 offset-m3"><br />
                   		<img class="circle responsive-img" src="img/yo3.jpg">
-                  		<h5 class="center-align white-text">Murdok Pérez</h5>
+                  		<h5 class="center-align white-text poiret">Murdok Pérez</h5>
                 	</div>
                 	<div class="col s12 center-align">
                   		<a href="mailto:cesar.antonio.bp@outlook.com?Subject=Contacto Web" target="_top" class="btn-floating blue-grey"><i class="material-icons">mail</i></a>
@@ -47,17 +51,67 @@
                   	</div>
       			</div>
       		</div>
-      		<div class="col s12 m8 l9">
-      			<h2 class="white-text">César Antonio Bautista Pérez</h2>
-      			<p class="white-text">Lorem ipsum dolor sit amet.</p>
+      		<div class="col s12 m8 l9 hide-on-small-only">
+      			<h2 class="white-text poiret">César Antonio Bautista Pérez</h2>
+      			<p class="white-text raleway">"All in all is all we are".</p>
       		</div>
       		<div class="col s12 center-align" id="btn-min">
       			<button class="btn-floating btn-large"><i class="material-icons blue-grey">work</i></button>
       		</div>
       	</section>
 
+      	<section class="row">
+      		<div class="container">
+
+		        <div class="col s12 m4">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="http://lorempixel.com/400/400/cats/1">
+		              <span class="card-title raleway blue-grey">PROYECTO</span>
+		            </div>
+		            <div class="card-content">
+		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ratione molestias illum.</p>
+		            </div>
+		          </div>
+		        </div>
+
+				<div class="col s12 m4">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="http://lorempixel.com/400/400/cats/2">
+		              <span class="card-title raleway blue-grey">PROYECTO</span>
+		            </div>
+		            <div class="card-content">
+		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ratione molestias illum.</p>
+		            </div>
+		          </div>
+		        </div>
+
+		        <div class="col s12 m4">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="http://lorempixel.com/400/400/cats/3">
+		              <span class="card-title raleway blue-grey">PROYECTO</span>
+		            </div>
+		            <div class="card-content">
+		              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ratione molestias illum.</p>
+		            </div>
+		          </div>
+		        </div>
+				
+				<div class="col s12 center-align" id="btn-min">
+	      			<button class="btn-floating btn-large"><i class="material-icons blue-grey">contact_mail</i></button>
+	      		</div>
+      		</div>
+      	</section>
+
     	<script src="js/jquery.min.js"></script>
     	<script src="js/materialize.js"></script>
     	<script src="js/init.js"></script>
+    	<script type="text/javascript">
+    		$( document ).ready(function(){
+				$(".button-collapse").sideNav();
+			});
+    	</script>
     </body>
 </html>
